@@ -1,0 +1,28 @@
+﻿Build started 10/5/2012 2:35:16 PM.
+     1>Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\logic_error\logic_error.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\logic_error.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt logic_error.cpp
+         logic_error.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: 'ExtensionAttribute' : cannot import symbol from 'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll': as 'System::Runtime::CompilerServices::ExtensionAttribute' has already been imported from another assembly 'mscorlib'
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : see declaration of 'System::Runtime::CompilerServices::ExtensionAttribute'
+                 first seen type is used; re-order imported assemblies to use the current type
+                 This diagnostic occurred while importing type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly 'System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+     1>logic_error.cpp(20): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>logic_error.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\Debug\logic_error.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\logic_error.logic_error.resources /MANIFEST /ManifestFile:"Debug\logic_error.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\Debug\logic_error.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\Debug\logic_error.lib" /MACHINE:X86 Debug\logic_error.obj
+         logic_error.vcxproj -> C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\Debug\logic_error.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\Debug\logic_error.exe;#1" /manifest Debug\logic_error.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\logic_error.unsuccessfulbuild".
+         Touching "Debug\logic_error.lastbuildstate".
+     1>Done Building Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_1\logic_error\logic_error\logic_error.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35

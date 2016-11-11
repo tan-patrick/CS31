@@ -1,0 +1,14 @@
+﻿Build started 11/7/2012 1:45:58 PM.
+     1>Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_3\Project_3\Project_3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project_3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt maze.cpp
+         maze.cpp
+     1>c:\users\patrick\desktop\cs 31\projects\project_3\project_3\maze.cpp(139): error C2661: 'draw' : no overloaded function takes 0 arguments
+     1>c:\users\patrick\desktop\cs 31\projects\project_3\project_3\maze.cpp(232): warning C4018: '>=' : signed/unsigned mismatch
+     1>Done Building Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_3\Project_3\Project_3.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

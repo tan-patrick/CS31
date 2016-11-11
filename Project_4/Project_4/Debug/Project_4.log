@@ -1,0 +1,30 @@
+﻿Build started 11/15/2012 3:06:31 PM.
+     1>Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Project_4\Project_4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project_4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt array.cpp
+         array.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 c:\users\patrick\desktop\cs 31\projects\project_4\project_4\array.cpp(58) : see reference to function template instantiation 'void std::fill_n<char*,unsigned int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _Diff=unsigned int,
+                     _Ty=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project_4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.lib" /MACHINE:X86 Debug\array.obj
+         LINK : C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.exe not found or not built by the last incremental link; performing full link
+         Project_4.vcxproj -> C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Debug\Project_4.exe;#1" /manifest Debug\Project_4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project_4.unsuccessfulbuild".
+         Touching "Debug\Project_4.lastbuildstate".
+     1>Done Building Project "C:\Users\Patrick\Desktop\CS 31\Projects\Project_4\Project_4\Project_4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.08
